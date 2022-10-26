@@ -2,7 +2,8 @@
 
 ##### 1. Square Pattern
 
-var string = '';
+
+var string = "";
 
 for(var i=0;i< 5;i++){
 
