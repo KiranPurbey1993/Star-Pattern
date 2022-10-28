@@ -66,4 +66,55 @@ console.log(string);
 *****
 ```
 
+###### 4. Downward Triangle Star Pattern
+```
+let n = 5;
+let string = "";
+for (let i = 0; i <= n; i++) {
+ 
+  // printing star
+  for (let k = n; k > i; k--) {
+    string += "*";
+  }
+  string += "\n";
+}
+console.log(string);
+*****
+****
+***
+**
+*
+```
+
+###### 5.hollow triangle star pattern
+```
+let n = 5;
+let string = "";
+for (let i = 0; i <= n; i++) {
+ 
+  // printing star
+  for (let k = 0; k < i; k++) {
+      if(i===n){
+         string += "*"; 
+      }else{
+          if(k===0 || k===i-1){
+             string += "*"; 
+          }else{
+            string += " ";   
+          }
+          
+      }
+    
+  }
+  string += "\n";
+}
+console.log(string);
+*
+**
+* *
+*  *
+*****
+```
+
+
 
