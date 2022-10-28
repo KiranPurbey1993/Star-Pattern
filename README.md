@@ -16,7 +16,7 @@ console.log(string);
 *****
 *****
 ```
-##### 1. Hollow  Square Pattern
+##### 2. Hollow  Square Pattern
 ```
 let n = 5; // row or column count
 // defining an empty string
@@ -46,3 +46,24 @@ console.log(string);
 *   *
 *****
 ````
+##### 3.  Left Triangle Pattern in Javascript
+```
+let n = 5;
+let string = "";
+for (let i = 0; i <= n; i++) {
+ 
+  // printing star
+  for (let k = 0; k < i; k++) {
+    string += "*";
+  }
+  string += "\n";
+}
+console.log(string);
+*
+**
+***
+****
+*****
+```
+
+
